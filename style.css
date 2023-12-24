@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 370px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 60px 32px;
+    background: gray;
+    box-shadow: -1rem 10px 28px 0px rgba(0, 0, 0, 0.8);
+}
+.content header{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.field{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.94);
+}
+.field span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+.field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;   
+}
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: #222;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; 
+    display: none;
+}
+.password:valid ~ .show{
+    display: block;
+}
+.btn{
+    margin-top: 16px;
+
+}
+.pass{
+    text-align: left;
+    margin: 10px 0;
+}
+.pass a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+}
+.pass:hover a{
+    text-decoration: underline;
+}
+input[type="submit"]{
+    background:#3498db;
+    border: 1px solid #2691d9;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #2691d9;
+}
+.login{
+    color: white;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif; 
+}
+.link{
+    /* display: flex; */
+    cursor: pointer;
+    color: whitesmoke;
+    margin: 0 0 20px 0;
+}.facebook, .Google{
+    width: 100%;
+    height: 42px;
+    line-height: 45px;
+    margin-top: 10px;
+}
+.facebook{
+    background: #4267b2;
+    border: 1px solid #3e61a8;
+    border-radius: 5px;
+}
+.facebook:hover{
+    background: #2a6085;
+}
+.Google{
+    background: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.Google:hover{
+    background: rgb(175, 53, 53);
+}
+.link i{
+    font-size: 17px;
+}
+.link span{
+    font-size: 16px;
+    margin-left: 8px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif; 
+}
+.signup{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+}
+.signup a{
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
